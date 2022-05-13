@@ -24,7 +24,7 @@
 .fight-stick .trigger-button {
     width: 123px;
     height: 123px;
-    background: #37be25;
+    background: #333333;
     border-radius: 100%;
     opacity: 1;
     display: block;
@@ -57,7 +57,7 @@
 .fight-stick .bumper {
     width: 123px;
     height: 123px;
-    background: #37be25;
+    background: #333333;
     border-radius: 100%;
     opacity: 1;
     display: block;
@@ -81,28 +81,28 @@
 
 .fight-stick .quadrant {
     position: absolute;
-    font-family: "";
+    font-family: "Press Start 2P";
     font-size: 28px;
     font-weight: normal;
     top: 20px;
     left: 236px;
-    color: red;
+    color: white;
 }
 
 .fight-stick .p0:after {
-    content: "1";
+    content: "Player 1";
 }
 
 .fight-stick .p1:after {
-    content: "";
+    content: "Player 2";
 }
 
 .fight-stick .p2:after {
-    content: "";
+    content: "Player 3";
 }
 
 .fight-stick .p3:after {
-    content: "";
+    content: "Player 4";
 }
 
 .fight-stick .arrows {
@@ -114,12 +114,11 @@
 }
 
 .fight-stick .back, .fight-stick .start {
-    width: 0px;
-    height: 0px;
-    background: #;
+    width: 70px;
+    height: 70px;
+    background: #333333;
     display: block;
     border-radius: 100%;
-    opacity: 0;
 }
 
 .fight-stick .back {
@@ -130,13 +129,11 @@
     position: absolute;
     bottom: 4px;
     left: -1px;
-    opacity: 0;
 }
 
 .fight-stick .back.pressed, .fight-stick .start.pressed {
     transform: translateY(5px);
     -webkit-filter: invert(1);
-    opacity: 0;
 }
 
 .fight-stick .abxy {
