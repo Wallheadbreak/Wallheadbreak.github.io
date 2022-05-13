@@ -32,7 +32,7 @@
 
 .fight-stick .trigger-button.pressed {
     transform: translateY(5px);
-    -webkit-filter: invert(1);
+    -webkit-filter: invert(2);
 }
 
 .fight-stick .trigger-button.left {
@@ -65,7 +65,7 @@
 
 .fight-stick .bumper.pressed {
     transform: translateY(5px);
-    -webkit-filter: invert(1);
+    -webkit-filter: invert(2);
 }
 
 .fight-stick .bumper.left {
