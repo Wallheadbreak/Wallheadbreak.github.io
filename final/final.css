@@ -119,6 +119,7 @@
     background: #333333;
     display: block;
     border-radius: 100%;
+    opacity: 0;
 }
 
 .fight-stick .back {
