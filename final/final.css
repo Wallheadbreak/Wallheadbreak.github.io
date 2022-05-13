@@ -90,7 +90,7 @@
 }
 
 .fight-stick .p0:after {
-    content: "1";
+    content: "";
 }
 
 .fight-stick .p1:after {
@@ -188,7 +188,7 @@
     height: 221px;
     top: 199px;
     left: 192px;
-    background: url(stickmod.png);
+    background: url(stickmod2.png);
 }
 
 .fight-stick .fstick.up {
