@@ -114,12 +114,12 @@
 }
 
 .fight-stick .back, .fight-stick .start {
-    width: 70px;
-    height: 70px;
-    background: #333333;
+    width: 0px;
+    height: 0px;
+    background: #;
     display: block;
     border-radius: 100%;
-    opacity: 0;
+    opacity: 0%;
 }
 
 .fight-stick .back {
